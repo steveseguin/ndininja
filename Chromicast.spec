@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['src/chromicast.py'],
-             pathex=['/Users/ooblex/Desktop/ndininja/ndininja'],
+             pathex=['/Users/ooblex/Desktop/chromicast'],
              binaries=[],
              datas=[('/usr/local/lib/python3.7/site-packages/cefpython3', 'cefpython3')],
              hiddenimports=['pkg_resources.py2_warn'],
@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True , icon='chromicast.ico')
+          console=True , icon='images/chromicast.ico')
