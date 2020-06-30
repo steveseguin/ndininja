@@ -15,6 +15,8 @@ FRAMERATE = 30
 
 
 def command_line_arguments():
+    if len(sys.argv) <=1:
+        url = input("Paste the STAGE TEN Stream Token here: ")
     if len(sys.argv) > 1:
         url = sys.argv[1]
         if url.startswith("http://") or url.startswith("https://"):
