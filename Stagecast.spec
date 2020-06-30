@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['src/chromicast.py'],
+a = Analysis(['src/stagecast.py'],
              pathex=['/Users/ooblex/Desktop/ndininja/ndininja'],
              binaries=[],
              datas=[('/usr/local/lib/python3.7/site-packages/cefpython3', 'cefpython3')],
@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True , icon='icon.ico')
+          console=True , icon='stagecast.ico')
