@@ -118,7 +118,7 @@ try:
     if hasattr(sys, 'frozen') and 'darwin' in sys.platform:
         settings["framework_dir_path"] = os.path.abspath("/usr/local/lib/python3.7/site-packages/cefpython3/Chromium Embedded Framework.framework")
         settings["browser_subprocess_path"] =  os.path.abspath("/usr/local/lib/python3.7/site-packages/cefpython3/subprocess")
-        settings["debug"] = False
+    settings["debug"] = False
 
     switches = {
         "disable-gpu": "",
