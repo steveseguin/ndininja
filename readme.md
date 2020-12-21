@@ -1,7 +1,6 @@
-This Code is Experimental and Unfinished. It works enough to output a website (include OBS.Ninja streams) into an NDI Video output
+This Code is Experimental and Unfinished. It works enough to output a website (include OBS.Ninja streams) into an NDI Video output.
 
 # macOS Build
-python3 build_stagecast.py pack
 python3 build chromicast.py pack
 
 # Windows Build
