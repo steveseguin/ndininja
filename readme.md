@@ -23,3 +23,8 @@ pyinstaller --onefile --hidden-import='pkg_resources.py2_warn' --icon=chromicast
 # find the location of CEF on macOS
 sudo find / | grep "Chromium Embedded Framework"
 
+## Offline tests
+
+Run `python3 -m unittest discover -s tests -v` to check normal and interrupted
+shutdown of both entry points. These tests use real threads with stubbed CEF,
+NDI and NumPy dependencies; they do not exercise browser rendering or NDI output.

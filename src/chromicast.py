@@ -165,6 +165,7 @@ try:
 except:
     print('Interrupted')
     run_event.clear()
+    camera_ready.set()
     t.join()
     
     cef.QuitMessageLoop()
